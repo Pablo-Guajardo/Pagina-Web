@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*Css Documento*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+.altura-a-b{
+    padding: 100px 0;
+
+}
+
+.logo{
+    width: 170px;
+    padding: 10px 0;
+}
+
+.iconos-redes-header{
+    width: 20px;
+    margin: 10px 5px;
+}
+
+.banner-video{
+    background-image: url("assets/img/home/video-bg.jpg");
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    bottom: 20px;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+
+.banner-video .play{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+/*Somos*/
+.cabecera-somos{
+    padding: 150px 0 100px 0;
+    background-image: url("assets/img/somos/slider-interior.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.texto-blanco{
+    color: #fff;
+}
+
+.banner-somos {
+    background-image: url("assets/img/somos/somos-equipo.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    background-color: #000000;
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer .logotipo-footer{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 12px;
+}
+
+.btn-light{
+   color: #ffffff;
+    background-color: transparent;
+    border-color: #f8f9fa;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
